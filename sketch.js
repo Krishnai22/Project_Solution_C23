@@ -20,9 +20,10 @@ function setup() {
 
 
   //make computerbse here
-  
+  computerBase=new ComputerBase(
+  width-300,random(450,heigth-300),180,150)
 
-  
+  computer=new Computer(width-280,computerBase.body.position.y-153,50,180)
 }
 
 function draw() {
